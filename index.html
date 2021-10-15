@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap version 4.6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <!-- bootstrap 4.6 components -->
+    <span style="text-align: center; padding-top: 20px; color: rgb(1, 18, 22);">
+        <img src="images/shubh.webp" alt="logo" style="float: left;width: 70px;padding-left: 5px;">
+        <marquee behavior="bounce" direction="right" scrollamount="5">
+            <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif" id="h1">
+                <b>Bootstrap 4.6 Components</b>
+            </h1>
+        </marquee>
+        <hr>
+    </span>
+    <h4 style="padding:10px ;text-align: center;background-color: orange;width: fit-content;margin-left: 45%;border-radius: 5px;"><b> 1.Carousel</b></h4>
+    <!--Carousel start  -->
+    <section style="padding-top: 15px; padding-bottom: 30px; border: 2px solid black;margin-left: 30%;margin-right: 30%; margin-top: 20px;border-radius: 10px;">
+        <div class="container caraimg">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/c1.jpg" class="d-block w-100 caraimg" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/c2.jpg" class="d-block w-100 caraimg" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/c3.jpg" class="d-block w-100 caraimg" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div>
+                <h3>" Cats are connoisseurs of comfort.You can not look at a sleeping cat and feel tense.To be the best thing, person, idea, etc"</h3>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- carousel end -->
+    <!-- cards  vesion 4.6 start -->
+    <section style="padding-bottom: 40px;">
+        <div class="container">
+            <h4 class="p1"><b> 2.Cards</b></h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./images/dol.jpg" class="card-img-top" alt="dolphin">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>National Aquatic Animal</b></h5>
+                            <p class="card-text text-color">Dolphin Declared National Aquatic Animal 18th May 2010: The Ministry of Environment and Forests notified the Ganges River Dolphin as the National Aquatic Animal.</p>
+                            <a href="https://www.thehindu.com/news/national/River-dolphin-is-Indiarsquos-national-aquatic-animal/article16885150.ece" class="btn btn-primary">Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./images/tiger-g022992b3a_1920.jpg" class="card-img-top" alt="image2">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>National Mamal</b></h5>
+                            <p class="card-text text-color">Tiger was picked as the National animal of India because of its elegance, strength, agility, and colossal power. On 1st April 1973, Government launched Project Tiger to save tigers. It was launched from the Jim Corbett National
+                                Park in Uttarakhand.</p>
+                            <a href="#" class="btn btn-primary">Info</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="./images/peacock-g626250c58_1920.jpg" class="card-img-top" alt="image3">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>National Bird</b></h5>
+                            <p class="card-text text-color">In 1963, the peafowl was declared the national bird of India because of its rich religious and legendary involvement in Indian traditions. Hindus consider this bird to be sacred because the god Kartikeya rides on its back.</p>
+                            <a href="#" class="btn btn-primary">Info</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- cards  vesion 4.6 End -->
+    <!-- heading and button and dropdown start -->
+    <section style="padding-top: 20px; padding-bottom: 50px; background-color: palegoldenrod;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="p1"><b>3.Button Tags</b></h4>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <br>
+                    <br>
+
+                    <div>
+                        <h4 class="p1">Outline buttons</h4>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                        <button type="button" class="btn btn-outline-danger">Danger</button>
+                        <button type="button" class="btn btn-outline-warning">Warning</button>
+                        <button type="button" class="btn btn-outline-info">Info</button>
+                        <br>
+                        <br>
+                        <div>
+                            <h4 class="p1"><b>4.Dropdown Button Tag</b></h4>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div style="border-left: 6px solid grey ;height: 320px;margin-left: 80px;"></div>
+                <div class="col-md-5" style="padding-left: 180px;">
+                    <h4 class="p1"><b>5.Headings</b></h4>
+
+                    <h1>HEADING <span class="badge badge-secondary bgcolor">h1</span></h1>
+                    <h2>HEADING <span class="badge badge-secondary bgcolor">h2</span></h2>
+                    <h3>HEADING<span class="badge badge-secondary bgcolor">h3</span></h3>
+                    <h4>HEADING<span class="badge badge-secondary bgcolor">h4</span></h4>
+                    <h5>HEADING<span class="badge badge-secondary bgcolor">h5</span></h5>
+                    <h6>HEADING<span class="badge badge-secondary bgcolor">h6</span></h6>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--  heading and button and dropdown end -->
+
+    <!-- Form and collapse start -->
+    <section style="background-color:gainsboro; padding-bottom: 30px;">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 style="margin-top: 40px;" class="p1"><b>6.Form</b></h4>
+                    <br>
+                    <form class="border">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4"><b>Email</b></label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4"><b>Password</b></label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress"><b>Address</b></label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2"><b>Address 2</b></label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity"><b>City</b></label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="City">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState"><b>State</b></label>
+                                <select id="inputState" class="form-control" placeholder="State">
+                  <option selected>Choose...</option>
+                  <option>Maharashtra</option>
+                  <option>Gujrat</option>
+                  <option>Rajasthan</option>
+                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip"><b>Zip</b></label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                  <b>Check me out</b>
+                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><b>Sign in</b></button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4 style="margin-top: 40px;" class="p1"><b>7.Collapse..</b></h4>
+                    <br>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <b>Collapsible Group Item 1</b>
+                  </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body card-color1">
+                                    Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the
+                                    <code>.show</code> class.
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <b>Collapsible Group Item 2</b>
+                  </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body card-color2">
+                                    Some placeholder content for the second accordion panel. This panel is hidden by default.
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <b>Collapsible Group Item 3</b>
+                  </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body card-color3">
+                                    And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- form and collapse end -->
+
+
+    <!-- jumbotron and Modal object start -->
+    <section style="padding-top: 40px; padding-bottom: 30px;">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="p1" style="margin-bottom: 10px;"> <b>8.jumbotron..</b></h4>
+                    <div class="jumbotron jumbotron-color">
+                        <h1 class="display-4"><b>Hello, world!</b></h1>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </div>
+
+                </div>
+                <div style="border-left: 6px solid grey ;height: 530px;margin-left: 10px;margin-right: 10px;"></div>
+                <div class="col-md-5">
+                    <h4 style="margin-bottom: 10px;" class="p1"><b>6.Modal Object..</b></h4>
+                    <div>
+                        <div class="media">
+                            <img style="height: 100px; width: 100px;" src="./images/shubh.webp" class="mr-3" alt="image7">
+                            <div class="media-body">
+                                <h5 class="mt-0 text-color"><b>Modal heading</b></h5>
+                                <p class="background-color"><b>Standing on the frontline when the bombs start to fall. Heaven is jealous
+                    of our love, angels are
+                    crying from up above. Can't replace you with a million rings. Boy, when you're with me I'll give you
+                    a
+                    taste. There’s no going back. Before you met me I was alright but things were kinda heavy. Heavy is
+                    the
+                    head that wears the crown.</b></p>
+
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="media">
+                            <img style="height: 100px; width: 100px;" src="./images/shubh.webp" class="mr-3" alt="image8">
+                            <div class="media-body">
+                                <h5 class="mt-0 text-color"><b>Modal heading</b></h5>
+                                <p class="background-color"><b>Standing on the frontline when the bombs start to fall. Heaven is jealous
+                    of our love, angels are
+                    crying from up above. Can't replace you with a million rings. Boy, when you're with me I'll give you
+                    a
+                    taste. There’s no going back. Before you met me I was alright but things were kinda heavy. Heavy is
+                    the
+                    head that wears the crown.</b></p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- jumbotron and Modal object End -->
+    <footer style="background-color: grey;padding: 30px;text-align: center;">
+        <marquee behavior="move" direction="left">..................................................</marquee>
+    </footer>
+
+
+</body>
+
+</html>

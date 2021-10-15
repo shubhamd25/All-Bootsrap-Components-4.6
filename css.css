@@ -1,0 +1,80 @@
+#h1 {
+    background-color: pink;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.shadow {
+    box-shadow: 0 0 0 0 (50%);
+    border: 2px solid black;
+}
+
+.caraimg {
+    border-radius: 20px;
+    width: 80%;
+}
+
+.text-color {
+    color: rgb(2, 53, 54);
+}
+
+.p-text {
+    padding-top: 20px;
+    font-size: large;
+}
+
+.padding {
+    padding-top: 50px;
+}
+
+input:hover {
+    background-color: rgb(89, 160, 111);
+}
+
+select:hover {
+    background-color: rgb(132, 168, 99);
+}
+
+.card-color1 {
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.card-color2 {
+    background-color: darkorange;
+    font-size: 17px;
+}
+
+.card-color3 {
+    background-color: maroon;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.jumbotron-color {
+    background-color: paleturquoise;
+}
+
+.border {
+    border: 2px solid blue;
+}
+
+.text-color {
+    color: maroon;
+}
+
+.background-color {
+    color: teal;
+}
+
+.bgcolor {
+    background-color: blueviolet;
+}
+
+.p1 {
+    border-radius: 5px;
+    background-color: orange;
+    width: fit-content;
+    padding: 5px;
+}
